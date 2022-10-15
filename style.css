@@ -17,7 +17,10 @@
     --color-orange2: #FFD37A;
     --color-dark-orange2: #FFBE3B;
     --color-brown: #806C44;
-    
+    --color-purple: #816EFF;
+    --color-light-pink: #FFC1C7;
+
+
     /* Font size */
     --font-large: 48px;
     --font-medium: 28px;
@@ -172,8 +175,12 @@ button {
 .section{
     padding:50px;
     text-align: center;
-    max-width: 1200px;
     margin:auto;
+}
+
+.section__container {
+    max-width: 1200px;
+    margin: auto;
 }
 
 /* About */
@@ -208,3 +215,32 @@ button {
     color: var(--color-dark-grey);
 }
 
+/* Skill */
+
+#skills {
+    background-color: var(--color-light-pink);
+}
+
+.skillset {
+    display: flex;
+    background-color: var(--color-light-grey);
+    color: var(--color-light-white);
+    margin: 20px 0;
+}
+
+.skillset__title {
+    color: var(--color-white);
+}
+
+.skillset__left {
+    flex-basis: 60%;
+    background-color: var(--color-dark-grey);
+}
+
+.skillset__right {
+    flex-basis: 40%;
+}
+
+.tools {
+    background-color: var(--color-grey);
+}
