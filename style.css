@@ -235,6 +235,28 @@ button {
 .skillset__left {
     flex-basis: 60%;
     background-color: var(--color-dark-grey);
+    padding: 20px;
+}
+
+.skill {
+    margin-bottom: 32px;
+}
+
+.skill__description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill__bar {
+    width: 100%;
+    height: 3px;
+    background-color: var(--color-grey);
+}
+
+.skill__value {
+    width: 70%;
+    height: 3px;
+    background-color: var(--color-orange);
 }
 
 .skillset__right {
@@ -243,4 +265,8 @@ button {
 
 .tools {
     background-color: var(--color-grey);
+}
+
+.tools, .etc {
+    padding: 20px;
 }
