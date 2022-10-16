@@ -118,14 +118,14 @@ button {
 }
 
 .navbar__logo{
-    font-size: medium;
+    font-size: var(--font-medium);
     font-weight: var(--weight-semi-bold);
 }
 
 .logo {
-    width: 25px;
-    height: 25px;
-    float: left;
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
 }
 
 .navbar__menu__item{
@@ -141,6 +141,14 @@ button {
 
 .navbar__menu__item:hover {
     background-color: var(--color-dark-orange2);
+}
+
+.navbar__toggle-btn {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    font-size: 24px;
+    color: var(--color-white);
 }
 
 /* Home */
