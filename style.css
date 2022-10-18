@@ -20,7 +20,9 @@
     --color-purple: #816EFF;
     --color-light-pink: #FFC1C7;
     --color-brown: #806C44;
-
+    --color-blue2: #6BADFF;
+    --color-light-blue: #B8D8FF;
+    --color-navy: #1B2B40;
 
     /* Font size */
     --font-large: 48px;
@@ -54,7 +56,7 @@ body {
 
 a {
     text-decoration: none;
-    color: var(--color-white);
+    color: var(--color-n);
 }
 
 ul {
@@ -105,18 +107,25 @@ button {
 
 /* Navbar */
 #navbar {
+    position:fixed;
+    width:100%;
     display : flex;
     justify-content: space-between;
-    background-color: var(--color-orange2);
     align-items: center;
-    color: var(--color-white);
+    color: var(--color-navy);
     padding:16px;
+    background-color: transparent;
+    transition: all var(--animation-duration) ease-in-out;
 }
 
 .navbar__menu{
     display: flex;
 }
 
+#navbar.navbar--dark {
+    background-color: var(--color-blue2);
+    padding: 8px;
+}
 .navbar__logo{
     font-size: var(--font-medium);
     font-weight: var(--weight-semi-bold);
@@ -140,7 +149,7 @@ button {
 }
 
 .navbar__menu__item:hover {
-    background-color: var(--color-dark-orange2);
+    background-color: var(--color-light-blue);
 }
 
 .navbar__toggle-btn {
@@ -156,6 +165,7 @@ button {
 #home {
     background: url("imgs/home-background.png") center/cover no-repeat;
     padding: 40px 40px;
+    padding-top: 120px;
     text-align: center;
 }
 
