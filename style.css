@@ -236,7 +236,7 @@ button {
 /* Skill */
 
 #skills {
-    background-color: var(--color-light-pink);
+    background-color: var(--color-dark-orange2);
 }
 
 .skillset {
@@ -274,7 +274,7 @@ button {
 .skill__value {
     width: 70%;
     height: 3px;
-    background-color: var(--color-orange);
+    background-color: var(--color-pink);
 }
 
 .skillset__right {
@@ -292,7 +292,7 @@ button {
 
 /* Contact */
 #contact {
-    background-color: var(--color-dark-orange2);
+    background-color: var(--color-blue2);
 }
 
 .contact__title,
@@ -324,7 +324,7 @@ button {
     width: 70px;
     height: 70px;
     font-size: 50px;
-    background-color: var(--color-blue2);
+    background-color: var(--color-navy);
     color: var(--color-white);
     border-radius: 50%;
     opacity: 0;
